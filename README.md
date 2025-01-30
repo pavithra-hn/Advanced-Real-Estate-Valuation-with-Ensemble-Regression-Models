@@ -16,5 +16,4 @@ This Machine Learning project series walks through step by step process of how t
 
 7.HTML/CSS/Javascript for UI
 
-# Advance-Real-Estate-Validation-using-ensemble-regression-methods
 
