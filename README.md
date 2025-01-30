@@ -16,4 +16,26 @@ This Machine Learning project series walks through step by step process of how t
 
 7.HTML/CSS/Javascript for UI
 
+## Dataset
+The project utilizes real estate datasets from various sources:
+- Kaggle real estate datasets
+- Public government property databases
+- Custom collected datasets
+
+## Model Evaluation Metrics
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- R-squared (R²)
+
+## Contributing
+Contributions are welcome! Feel free to submit issues and pull requests.
+
+## License
+This project is licensed under the MIT License.
+
+## Contact
+For inquiries and collaboration:
+- **Email:** vruthvikyadav1348@gmail.com
+- **GitHub:** [Vruthvik48](https://github.com/Vruthvik48)
 
