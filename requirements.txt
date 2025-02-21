@@ -1,0 +1,77 @@
+**Project Requirements Document**
+
+# **Real Estate Price Prediction Using Ensemble Regression Models**
+
+## **1. Introduction**
+This document outlines the necessary dependencies and environment setup required for the **Real Estate Price Prediction** project using various ensemble regression models. It includes details about required libraries, installation instructions, and additional tools used for API testing and deployment.
+
+---
+
+## **2. Required Dependencies**
+To ensure smooth execution, the following Python libraries and tools must be installed:
+
+### **Python Libraries**
+| Library | Version | Purpose |
+|---------|---------|---------|
+| Flask | 3.0.0 | To create the API server for model deployment |
+| numpy | 1.26.2 | For numerical computations |
+| pandas | 2.1.3 | For data manipulation and analysis |
+| scikit-learn | 1.5.1 | For machine learning model training and evaluation |
+| joblib | 1.3.2 | For saving and loading the trained model efficiently |
+| matplotlib | 3.8.2 | For data visualization |
+| seaborn | 0.13.0 | For statistical data visualization |
+| requests | 2.31.0 | To send HTTP requests for API interaction |
+| gunicorn | 21.2.0 | For running the Flask server in production |
+
+### **Additional Tools Used**
+- **Postman** → For testing API endpoints (GET & POST requests).
+- **PyCharm** → Used as the Integrated Development Environment (IDE) for project development.
+
+---
+
+## **3. Installation Guide**
+### **3.1. Install Python**
+Ensure that **Python 3.10+** is installed on your system. You can download it from the [official Python website](https://www.python.org/downloads/).
+
+### **3.2. Install Dependencies**
+After cloning the project repository, navigate to the project folder and run:
+```bash
+pip install -r requirements.txt
+```
+This will install all the required libraries mentioned above.
+
+### **3.3. Verify Installation**
+To check if all dependencies are installed correctly, run:
+```bash
+python -c "import flask, numpy, pandas, sklearn, joblib, matplotlib, seaborn, requests; print('All dependencies installed successfully!')"
+```
+If no errors appear, the setup is successful.
+
+---
+
+## **4. Project Setup & Execution**
+### **4.1. Running the Flask Server**
+After installing the dependencies, start the Flask server using:
+```bash
+python app.py
+```
+This will launch the API, which can be tested using **Postman**.
+
+### **4.2. Testing API with Postman**
+- Open Postman and make **GET** and **POST** requests to verify the API endpoints.
+- Example **GET request**: `http://127.0.0.1:5000/get_location_names`
+- Example **POST request** for price prediction:
+```json
+{
+  "total_sqft": 1200,
+  "location": "Indira Nagar",
+  "bhk": 3,
+  "bath": 2
+}
+```
+
+---
+
+## **5. Conclusion**
+This document provides a step-by-step guide to setting up and running the Real Estate Price Prediction project. If you encounter any issues, ensure that all dependencies are installed correctly and the required tools (Flask, Postman, PyCharm) are properly configured.
+
