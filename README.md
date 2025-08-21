@@ -28,14 +28,6 @@ The project utilizes real estate datasets from various sources:
 - Root Mean Squared Error (RMSE)
 - R-squared (R²)
 
-## Contributing
-Contributions are welcome! Feel free to submit issues and pull requests.
 
-## License
-This project is licensed under the MIT License.
 
-## Contact
-For inquiries and collaboration:
-- **Email:** vruthvikyadav1348@gmail.com
-- **GitHub:** https://github.com/Vruthvik48
 
